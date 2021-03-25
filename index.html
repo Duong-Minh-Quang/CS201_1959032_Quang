@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the CS201 Web Dev 1 final. Your task is to make a responsive e-commerce site using
+  BS4 as your CSS front end framework and load products from the FakeStore API (linked below) -->
+  <!-- FakeStoreAPI end point: https://fakestoreapi.com/products -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+
+      <div id="nav-left" class="d-lg-inline-flex d-md-inline-flex col-lg-2 col-md-3 ">
+        <div class="currency-name text-center mt-3">
+          Currency:
+        </div>
+        <div class="dropdown ml-3 ">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownCurrency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Currency
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">USD</a>
+            <a class="dropdown-item" href="#">VND</a>
+            <a class="dropdown-item" href="#">JPY</a>
+          </div>
+        </div>
+        <div class="dropdown ml-3 ">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">EN</a>
+            <a class="dropdown-item" href="#">VN</a>
+            <a class="dropdown-item" href="#">JP</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="nav-center" class="col-lg-8 col-md-6">
+
+      </div>
+
+      <div id="nav-right" class="col-lg-2 col-md-3">
+        <button type="button" name="button"><i class="fas fa-search"></i></button>
+        <button type="button" name="button"><i class="fas fa-unlock"></i></button>
+        <button type="button" name="button"><i class="fas fa-user"></i></button>
+        <button type="button" name="button"><i class="fas fa-shopping-cart"></i></button>
+      </div>
+    </nav>
+  </header> <!-- end nav -->
+
+  <div class="container">
+    <div class="container container-fluid">
+
+      <div id="near-nav-left" class="d-md-inline-flex d-lg-inline-flex pt-5 col-md-3 col-lg-3">
+        <img id="watch" src="images/watch.jpg" alt="watch">
+        <h2>Watches</h2>
+      </div>
+
+      <div id="near-nav-center" class="d-md-inline-flex d-lg-inline-flex pt-5 col-md-6 col-lg-6">
+
+      </div>
+
+      <div id="near-nav-right" class="d-md-inline-flex d-lg-inline-flex pt-5 col-md-3 col-lg-3">
+        <ul>
+          <li><a href="#">Women's</a></li>
+          <li><a href="#">Men's</a></li>
+          <li>
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownUnisex" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Unisex
+              </button>
+          </li>
+          <li><a href="#">Collection</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div> <!-- end near nav -->
+
+  <div id="banner">
+
+  </div>
+
+  <div id="introduce" class="row">
+    <div class="col-lg-4 col-md-4">
+      <img src="https://spy.com/wp-content/uploads/2019/07/best-mens-watches-2019-e1565040231745.jpg?w=714" alt="men's watch">
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <img src="https://webassets.ashford.com/images/web/fossil/BQ3557_FSA.jpg" alt="women's watch">
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <img src="https://daotaoketoanhn.edu.vn/wp-content/uploads/2014/10/50sale_bbemusic.jpg" alt="50% sale">
+    </div>
+  </div>
+
+  <h2>New products</h2><br>
+
+  <div id="display">
+    <div class="row">
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-lg-4">
+        <i class="fas fa-car"></i>
+        <h3>Fast and free delivery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <i class="fas fa-car"></i>
+        <h3>Fast and free delivery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <i class="fas fa-car"></i>
+        <h3>Fast and free delivery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Lastest posts</h2>
+
+  <h2>Manufactures</h2>
+
+  <div class="row">
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+  </div>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="staticcatalog.js" charset="utf-8"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body, header {
+  margin: 50px;
+}
+
+#watch {
+  height: 50px;
+  width: 50px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#near-nav-right {
+  overflow: hidden;
+}
+
+#banner {
+  background-image: url("images/examplebanner.jpg");
+  background-size: cover;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 0px;
+}
